@@ -4,14 +4,14 @@
 - Black: hsl(0, 0%, 7%)
 */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Figtree";
 }
 
-body{
+body {
     height: 100vh;
     background-color: hsl(47, 88%, 63%);
     display: flex;
@@ -19,7 +19,7 @@ body{
     align-items: center;
 }
 
-.container{
+.container {
     max-width: 380px;
     width: 100%;
     background-color: hsl(0, 0%, 100%);
@@ -32,17 +32,17 @@ body{
     box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
 }
 
-.image img{
+.image img {
     border-radius: 10px;
 }
 
-.text{
+.text {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-button{
+button {
     max-width: 80px;
     border: none;
     background-color: hsl(47, 88%, 63%);
@@ -53,29 +53,29 @@ button{
     color: hsl(0, 0%, 7%);
 }
 
-h2{
+h2 {
     font-size: 13px;
     font-weight: 600;
 }
 
-h1{
+h1 {
     color: hsl(0, 0%, 7%);
     cursor: pointer;
 }
 
-.container:hover{
+.container:hover {
     box-shadow: 15px 15px 0px hsl(0, 0%, 7%);
 }
 
-.container:hover h1{
+.container:hover h1 {
     color: hsl(47, 88%, 63%);
 }
 
-p{
+p {
     color: hsl(0, 0%, 50%);
 }
 
-.author{
+.author {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -83,11 +83,11 @@ p{
     margin-top: 15px;
 }
 
-.author img{
+.author img {
     width: 32px;
 }
 
-.author h3{
+.author h3 {
     font-size: 15px;
     color: hsl(0, 0%, 7%);
 }
